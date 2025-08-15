@@ -69,6 +69,7 @@ PC用のスタイル
 }
 /*画面幅が767px以下のとき*/
 @media screen and (max-width: 767px) {
+
   /*PCのナビゲーションを非表示に*/
   body {
     min-width: 375px;
@@ -81,10 +82,8 @@ PC用のスタイル
 
   /*ハンバーガーメニュー*/
   #menu-sp {
-    background-color: transparent;
     float: right;
     padding: 0;
-    border: none;
   }
 
   /*スマホ用ナビゲーションの表示切替*/
@@ -101,6 +100,11 @@ PC用のスタイル
 
 #nav-sp ul {
   padding-left: 0;
+  
+}
+
+#nav-sp ul li:first-child {
+  margin-bottom: 50px; /* お好みの値へ */
 }
 
 #nav-sp li {
