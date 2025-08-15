@@ -145,6 +145,8 @@ PC用のスタイル
   color: #ffffff;
 }
 
+
+
 #nav-sp .menu {
   text-decoration: none;
   display: block;
@@ -155,5 +157,8 @@ PC用のスタイル
   background-repeat: no-repeat;
   background-position: right top;
   color: #ffffff;
+}
+#nav-sp .menu:hover {
+  border-bottom: 2px solid #fff;
 }
 }
