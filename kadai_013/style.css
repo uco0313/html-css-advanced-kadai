@@ -136,7 +136,7 @@ PC用のスタイル
   color: #ffffff;
 }
 
-#nav-sp > a:hover {
+#nav-sp  .menu:hover {
   color: #ffffff;
   text-decoration: underline;
 }
@@ -158,7 +158,5 @@ PC用のスタイル
   background-position: right top;
   color: #ffffff;
 }
-#nav-sp .menu:hover {
-  border-bottom: 2px solid #fff;
-}
+
 }
